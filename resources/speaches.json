@@ -1,0 +1,2410 @@
+﻿{
+  "Speaches": [
+    {
+      "Speakers": null,
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Открытие в секции Future",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T10:00:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Черешнев",
+          "SurName": null,
+          "Company": "Biolink.Tech",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548787955_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Тренды невозможного",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1437"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Кот",
+          "SurName": null,
+          "Company": "Wrike",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545992921_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Про инженерный шовинизм: отвратительно быть менеджером",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1384"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Фастов",
+          "SurName": null,
+          "Company": "Tinkoff.ru",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551973214_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "May the F[_] be with You. Функциональный подход к проектированию API",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1505"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Вадим Макеев",
+          "SurName": null,
+          "Company": "HTML Academy",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548353812_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Делайте из слона муху",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1434"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Анастасия Семенюк",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548869794_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Как тестируют ВКонтакте",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1439"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Андрей Кутузов",
+          "SurName": null,
+          "Company": "Университет Осло (Норвегия)",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549396437_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Нейронные сети в обработке текста: хайп или всерьёз и надолго",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1450"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Виноградов",
+          "SurName": null,
+          "Company": "Axel Springer",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547835856_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Android. Производительность в Android приложениях",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1415"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Илья Редько",
+          "SurName": null,
+          "Company": "ONLY",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547839115_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Дизайн без правок",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1416"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Галактионов",
+          "SurName": null,
+          "Company": "Школа системного анализа",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552332686_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T10:50:00",
+      "SpeachTesis": "Почему технический писатель не аналитик",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1512"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Андрей Себрант",
+          "SurName": null,
+          "Company": "Яндекс",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548954391_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Нетехнологические проблемы \"умных продуктов",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1430"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Россинский",
+          "SurName": null,
+          "Company": "ivi",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547884740_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Проекту 10 лет, а тебе всё ещё интересно",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1417"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Григорий Кошелев",
+          "SurName": null,
+          "Company": "Контур",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545993250_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "А вы Кафку пробовали?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1398"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Алексей Золотых",
+          "SurName": null,
+          "Company": "Wrike",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552416059_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Сжимаем Javascript по-взрослому",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1516"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Mirjana Andovska",
+          "SurName": null,
+          "Company": "Netcetera",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1546541112_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Context: The missing ingredient in multilingual software translation",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1377"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Николай Шмырев",
+          "SurName": null,
+          "Company": "АЦ Технологии",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550686028_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Новое поколение систем распознавания речи",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1466"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Антон Спивак",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550597366_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "iOS. Переход на тёмную сторону",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1399"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Максим Дегтярёв",
+          "SurName": null,
+          "Company": "ИП Дегтярёв М.А.",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545915321_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "Зомби в метро. Процесс создания иллюстрации",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1390"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Юлия Лихачева",
+          "SurName": null,
+          "Company": "Азбука здоровья",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552327728_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T11:50:00",
+      "SpeachTesis": "У меня отличная работа, и я не счастлив",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1510"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Daniela Allmeier",
+          "SurName": null,
+          "Company": "RAUMPOSITION",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549301703_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Forward-looking city making",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1444"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Георгий Могелашвили",
+          "SurName": null,
+          "Company": "Booking.com",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919642_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Эффективные 1-на-1",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1382"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Максим Чечель",
+          "SurName": null,
+          "Company": "Juno",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550689359_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Инструментирование Go кода",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1468"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Мстислав Живодков",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548182944_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "WebGL на карте. Карта на WebGL",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1426"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Баяндин",
+          "SurName": null,
+          "Company": "Badoo",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549091913_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Нетрадиционное использование автотестов",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1447"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Даниил Гаврилов",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549698010_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Суммаризация текстов: от генерации заголовков к новостям до суммаризации всего и вся",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1454"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Василий Чирвон",
+          "SurName": null,
+          "Company": "MobileUp",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547747236_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Android. Clean Is Dead. Заблуждаетесь!",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1411"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Ярослав Шуваев",
+          "SurName": null,
+          "Company": "Ак Барс Цифровые Технологии",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921761_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "Дизайн продуктов на основе искусственного интеллекта",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1391"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Анфиса Кокорина",
+          "SurName": null,
+          "Company": "ИНКО",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552332128_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T13:00:00",
+      "SpeachTesis": "GDPR и Закон о защите персональных данных - какой зверь страшнее",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1514"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Ася Казанцева",
+          "SurName": null,
+          "Company": "Издательство Corpus",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548352179_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Память и обучение: до чего дошёл прогресс?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1432"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Михеев",
+          "SurName": null,
+          "Company": "AGIMA",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921143_200.jpg"
+        },
+        {
+          "Name": "Андрей Рыжкин",
+          "SurName": null,
+          "Company": "AGIMA",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921001_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Искусство коммуникаций в работе тимлида",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1387"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Роман Неволин",
+          "SurName": null,
+          "Company": "Independent developer",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549985092_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Machine Learning via .NET",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1457"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Sean Larkin",
+          "SurName": null,
+          "Company": "Microsoft, Webpack",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548787291_200.jpeg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Webpack 5 and the future of bundlers",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1436"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Химион",
+          "SurName": null,
+          "Company": "Avito",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550168717_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Model Based Testing в связке Agile development/testing",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1462"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Анна Мосолова",
+          "SurName": null,
+          "Company": "НГУ",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549305308_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Имитатор поэта, или как Пушкин писал бы через 200 лет",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1449"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Ртищев",
+          "SurName": null,
+          "Company": "Сбербанк Онлайн",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548089098_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "iOS. Всё есть MVC: зачем же нужны другие архитектуры?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1420"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Баха Егамедиев",
+          "SurName": null,
+          "Company": "СберТех",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551294542_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Зачем нам в Сбертехе была нужна стажировка, которая экономически невыгодна?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1471"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Семён Факторович",
+          "SurName": null,
+          "Company": "documentat.io",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552328686_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T14:10:00",
+      "SpeachTesis": "Можно ли превратить создание и поддержку документации в процесс, или что такое DocOps",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1511"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Фёдор Овчинников",
+          "SurName": null,
+          "Company": "Додо Пицца",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548090045_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Коровы и Интернет. Цифровая трансформация: как технологии меняют старые бизнесы",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1421"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Михаил Клюев",
+          "SurName": null,
+          "Company": "Avito",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919805_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Инструменты DevRel в арсенале тимлида",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1383"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Всеволод Толстопятов",
+          "SurName": null,
+          "Company": "JetBrains",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548962735_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Корутины изнутри",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1441"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Виктор Грищенко",
+          "SurName": null,
+          "Company": "Консультант",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549019944_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Decentralized Web",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1431"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Carl Crawford",
+          "SurName": null,
+          "Company": "Badoo",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547833287_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Visual Regression Testing",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1414"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Владислав Лялин",
+          "SurName": null,
+          "Company": "Лаборатория нейронных систем и глубокого обучения МФТИ",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550688268_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Сonversational AI: как сделать бота, который говорит как человек",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1467"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Илья Матвеев",
+          "SurName": null,
+          "Company": "JetBrains",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548965176_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Android. Мультиплатформенные проекты в Kotlin 1.3",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1443"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Никита Полозников",
+          "SurName": null,
+          "Company": "Додо Пицца",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921498_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Как сделать приложение для WeChat не зная китайского",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1389"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Соловьев",
+          "SurName": null,
+          "Company": "Plesk",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552331080_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T15:20:00",
+      "SpeachTesis": "Нам срочно нужен Data Science!",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1513"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Uri Wainshtein",
+          "SurName": null,
+          "Company": "Mobileye, Intel",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552494804_200.jpg"
+        },
+        {
+          "Name": "Ольга Андрианова",
+          "SurName": null,
+          "Company": "Intel Company",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552495646_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Будущее технологий. Cloud - Edge - Clients",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1518"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Поломодов",
+          "SurName": null,
+          "Company": "Tinkoff.ru",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548953191_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Культура разработки глазами тимлида: переход от монопродукта к экосистеме",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1424"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Максим Аршинов",
+          "SurName": null,
+          "Company": "Хайтек Груп",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549563018_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Быстрорастворимое проектирование",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1453"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Luis Diego Gonzalez Zuniga",
+          "SurName": null,
+          "Company": "Samsung",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547289792_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Immersed in the Web",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1402"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Сергей Белов",
+          "SurName": null,
+          "Company": "Mail.RU",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547745653_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Превращаем автотесты в тесты безопасности",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1409"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Алексей Грищенко",
+          "SurName": null,
+          "Company": "Мотив",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550599020_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Нейросети на синтетике для расширенной реальности",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1465"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Шевелев",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548090634_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "iOS. Как мы запустили 2ГИС под CarPlay и до сих пор расхлебываем",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1422"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Валерия Курмак",
+          "SurName": null,
+          "Company": "Сбербанк",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545920843_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Как показать интерфейс тому, кто не видит",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1386"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Панченко",
+          "SurName": null,
+          "Company": "Postgres Professional",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549907299_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T16:20:00",
+      "SpeachTesis": "Спроси профессионалов Postgresa",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1509"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Максим Дорофеев",
+          "SurName": null,
+          "Company": "mnogosdelal.ru",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545917534_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Три маленьких таракана на пути к большому будущему",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1371"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Алексей Катаев",
+          "SurName": null,
+          "Company": "Skyeng",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547747987_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Teamlead",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Рефакторинг: договариваемся, планируем, внедряем!",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1412"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Павел Финкельштейн",
+          "SurName": null,
+          "Company": "Lamoda",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921975_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Kotlin: 2 года в проде и ни единого разрыва",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1393"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Илья Климов",
+          "SurName": null,
+          "Company": "JavaScript.Ninja",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547743767_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Войны фреймворков: эпизод 2019",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1407"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Павел Сташевский",
+          "SurName": null,
+          "Company": "Lamoda",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548954302_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Экзистенциальная сказка о быстрых релизах и автоматизации тестирования",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1403"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Леонид Кулигин",
+          "SurName": null,
+          "Company": "Google",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545917629_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "Data Science",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Тренировка моделей машинного обучения на больших объемах данных",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1448"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Порошин",
+          "SurName": null,
+          "Company": "Яндекс",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550229089_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Android. ARCore + Sceneform: как создавать дополненную реальность",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1463"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Владимир Черепанов",
+          "SurName": null,
+          "Company": "POWER Brand",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545920703_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Design",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Дизайн идей",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1385"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-30T17:20:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Павел Мочалкин",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552482572_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Мир будущего - мир постправды",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1517"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Анна Бояркина",
+          "SurName": null,
+          "Company": "RealtimeBoard",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545917905_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Командный и персональный рост в продукте: уроки, навыки и процессы",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1373"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Роман Квартальнов",
+          "SurName": null,
+          "Company": "ZephyrLab",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547577213_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Почему Project Manager косячит?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1405"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Алексей Соммер",
+          "SurName": null,
+          "Company": "Innowise Group",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551976003_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Корректный .NET Core",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1506"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Александров",
+          "SurName": null,
+          "Company": "T-Systems",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545922096_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Microprofile.io - не спрингом единым!",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1395"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Florian Rival",
+          "SurName": null,
+          "Company": "Facebook",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548181969_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Beyond Web-Apps: WebAssembly, JS and React to rewrite native apps",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1425"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Юлия Долбилова",
+          "SurName": null,
+          "Company": "Додо Пицца",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547744684_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Как превратить QA команду в руины?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1408"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Ёлчев",
+          "SurName": null,
+          "Company": "RedMadRobot",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547748822_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "iOS. Функциональный Swift - это просто",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1413"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Елена Епанчинцева",
+          "SurName": null,
+          "Company": "Movavi",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552499027_200.jpg"
+        },
+        {
+          "Name": "Анна Опасова",
+          "SurName": null,
+          "Company": "Школа Movavi",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552497961_200.jpg"
+        }
+      ],
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T10:30:00",
+      "SpeachTesis": "Подростки в IT. Брать ли на работу 14-летних?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1519"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Круглов",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549090779_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Эволюция цифрового общения",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1445"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Абрамов",
+          "SurName": null,
+          "Company": "Kaiten",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549476710_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Moneyball. Как построить команду продактов, когда на рынке их нет",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1451"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Артём Каличкин",
+          "SurName": null,
+          "Company": "ЦФТ",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919398_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Servant leadership как палочка-выручалочка для менеджера, который не шарит",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1380"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Панченко",
+          "SurName": null,
+          "Company": "Postgres Professional",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549907299_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Postgres: High Load Checklist",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1456"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Антон Кочепасов",
+          "SurName": null,
+          "Company": "Rambus Inc",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551721261_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Как считать на питоне быстрее, чем на C++",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1500"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Мышов",
+          "SurName": null,
+          "Company": "Яндекс",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551900372_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Автоматический рефакторинг кода с помощью codemodes",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1502"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Леонид Руденко",
+          "SurName": null,
+          "Company": "JetBrains",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548440624_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Terraform на примере кластера Selenoid",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1435"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Евгений Сатуров",
+          "SurName": null,
+          "Company": "Surf",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547746474_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Android. Instant Apps — два года спустя",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1410"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T11:30:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Игорь Антаров",
+          "SurName": null,
+          "Company": "Moscow Tesla Club",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550689890_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Автомобиль будущего. Разбираем Теслу на инженерные решения и прорывные идеи",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1469"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Виктор Иванов",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550080274_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Продуктовые фичи: война бесконечности",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1459"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Егор Толстой",
+          "SurName": null,
+          "Company": "Avito",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919345_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "OKR без хайпа",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1379"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Владимир Плизга",
+          "SurName": null,
+          "Company": "ЦФТ",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548352692_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Перевод Spring Boot микросервисов с Java 8 на 11: что может пойти -не- так?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1433"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Вагиф Абилов",
+          "SurName": null,
+          "Company": "Miles",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547203488_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "F# как лекарство от наболевшего - исповедь ветерана ООП",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1375"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Martin Hochel",
+          "SurName": null,
+          "Company": "Twisto.cz, ngParty",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548267264_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Ultimate React Component Patterns with TypeScript",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1429"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Максим Бакиров",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548953275_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Тестирование мусорными данными с libFuzzer",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1404"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Тримонов",
+          "SurName": null,
+          "Company": "Яндекс",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550598154_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "iOS. Rx в современной мобильной разработке. Есть ли смысл?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1464"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T12:30:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Yegor Bugayenko",
+          "SurName": null,
+          "Company": "Zerocracy",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552415233_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Five trends we are afraid of",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1515"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Леонид Кулигин",
+          "SurName": null,
+          "Company": "Google",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545917629_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Основные ошибки при проведении экспериментов",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1372"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Нефёдов",
+          "SurName": null,
+          "Company": "Magora Systems",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545918593_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Как мы измеряли эффективность менеджеров проектов и к чему это привело",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1376"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Антон Чапоргин",
+          "SurName": null,
+          "Company": "Яндекс",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551878307_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Редактор текста на CRDT в продакшене",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1501"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Андрей Паньгин",
+          "SurName": null,
+          "Company": "Одноклассники",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550167566_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "JVM TI: как сделать \"плагин для виртуальной машины",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1460"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Валерия Зелёная",
+          "SurName": null,
+          "Company": "HTML Academy",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552242082_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Как технологии помогают учить людей",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1507"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Дмитрий Якин",
+          "SurName": null,
+          "Company": "Контур",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545992522_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Тестирование Кассового Железа. Битва за будущее",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1397"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Владимир Теблоев",
+          "SurName": null,
+          "Company": "Сбербанк",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548963236_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Android. Инструменты для решения проблем в большой команде",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1442"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T13:40:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Ларьяновский",
+          "SurName": null,
+          "Company": "Skyeng",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549735435_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Хорошие и плохие новости про будущее EdTech-индустрии",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1455"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Ямщиков",
+          "SurName": null,
+          "Company": "ABBYY / Институт Макса Планка",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545918033_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Как искусственный интеллект превращается в новое электричество",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1374"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Анна Обухова",
+          "SurName": null,
+          "Company": "Scrum Trek",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919543_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Сколько нужно энергии для работы Scrum Master, Product Owner и Agile Coach?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1381"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Михаил Ярийчук",
+          "SurName": null,
+          "Company": "Hibernating Rhinos",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921878_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Как делать анализ .Net memory dumps в WinDBG, и зачем это нужно",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1392"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Алексей Кирпичников",
+          "SurName": null,
+          "Company": "Контур",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551178103_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Аварии помогают учиться",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1470"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Ujjwal Sharma",
+          "SurName": null,
+          "Company": "Node.js",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547289239_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "V8 by example: A journey through the compilation pipeline",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1401"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Роман Иваницкий",
+          "SurName": null,
+          "Company": "Одноклассники",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551901476_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Масштабирование андроид-тестирования в Одноклассниках",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1503"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Артём Разинов",
+          "SurName": null,
+          "Company": "Авито",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1552325395_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "iOS E2E UI-тесты: много, зелено и на Pull Request",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1508"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T14:50:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Зезюлин",
+          "SurName": null,
+          "Company": "Wargaming",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549091449_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Прекрасное далёко",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1446"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Лысковский",
+          "SurName": null,
+          "Company": "iFarm Project, Alawar, Welltory",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548955010_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Как придумывать новое: продукты, бизнесы, ниши",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1418"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Антон Бевзюк",
+          "SurName": null,
+          "Company": "Додо Пицца",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545919178_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Додо в LeSS: как не заблудиться",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1378"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Тагир Валеев",
+          "SurName": null,
+          "Company": "JetBrains",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545921439_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Трансляция switch в Java-байткод",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1388"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Dylan Beattie",
+          "SurName": null,
+          "Company": "Skills Matter",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550168204_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Architecture: \"The Stuff That\" Hard to Change",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1461"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Тимофей Чаптыков",
+          "SurName": null,
+          "Company": "ВКонтакте",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551901044_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Пара слов об эмоджи",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1428"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Михаил Косыхин",
+          "SurName": null,
+          "Company": "Актион",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1551970881_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Как просто сделать эффективность",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1504"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Данил Попов",
+          "SurName": null,
+          "Company": "Mail.Ru Group",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548872425_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Android. Как Gradle может сделать разработку Android-приложений проще",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1440"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T16:00:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Орлов",
+          "SurName": null,
+          "Company": "Стратоплан",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548955107_200.jpg"
+        }
+      ],
+      "AreaName": "Ангар",
+      "AreaType": "Future",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Почему быть хорошим для всех - не слишком хорошо. И не будет",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1438"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Замесин",
+          "SurName": null,
+          "Company": "Мета",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547578295_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №2",
+      "AreaType": "Products",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Стыдно просить повышения зарплаты. Что с этим делать?",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1406"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Антон Зотин",
+          "SurName": null,
+          "Company": "#agileism",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548091469_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №3",
+      "AreaType": "Projects",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Офигенные команды",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1423"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Александр Тоболь",
+          "SurName": null,
+          "Company": "Одноклассники",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1550077554_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №1",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "TCP умер или будущее сетевых протоколов",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1458"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Никита Липский",
+          "SurName": null,
+          "Company": "Excelsior",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1545922061_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №4",
+      "AreaType": "Backend",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Невыносимая легкость AOT-компиляции Spring приложений",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1394"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Егор Банщиков",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548183351_200.jpg"
+        },
+        {
+          "Name": "Владислав Сапожников",
+          "SurName": null,
+          "Company": "2ГИС",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1548953072_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №5",
+      "AreaType": "Frontend",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Как сделать лучше",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1427"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Сергей Быстрых",
+          "SurName": null,
+          "Company": "Plesk",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1547886218_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №6",
+      "AreaType": "QA",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Как ускорить тесты в 10 раз и вернуть к ним доверие",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1419"
+    },
+    {
+      "Speakers": [
+        {
+          "Name": "Иван Букшев",
+          "SurName": null,
+          "Company": "ЦФТ",
+          "Position": null,
+          "FaceImageSource": "https://2019.codefest.ru/upload/members/photo_1549562095_200.jpg"
+        }
+      ],
+      "AreaName": "Зал №7",
+      "AreaType": "Mobile",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "iOS. Создание MockServera для сурового финансового продукта",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": "https://2019.codefest.ru/lecture/1452"
+    },
+    {
+      "Speakers": null,
+      "AreaName": "Путинка",
+      "AreaType": "Квартирники",
+      "SpeachStartTime": "2019-03-31T17:00:00",
+      "SpeachTesis": "Нет спикера",
+      "SpeachDescription": null,
+      "AboutUser": null,
+      "SpeachUrl": null
+    }
+  ],
+  "SectionsFirstDay": [
+    {
+      "Name": "Future",
+      "AreaName": "Ангар"
+    },
+    {
+      "Name": "Teamlead",
+      "AreaName": "Зал №3"
+    },
+    {
+      "Name": "Backend",
+      "AreaName": "Зал №4"
+    },
+    {
+      "Name": "Frontend",
+      "AreaName": "Зал №2"
+    },
+    {
+      "Name": "QA",
+      "AreaName": "Зал №1"
+    },
+    {
+      "Name": "Data Science",
+      "AreaName": "Зал №6"
+    },
+    {
+      "Name": "Mobile",
+      "AreaName": "Зал №7"
+    },
+    {
+      "Name": "Design",
+      "AreaName": "Зал №5"
+    },
+    {
+      "Name": "Квартирники",
+      "AreaName": "Путинка"
+    }
+  ],
+  "SectionsSecondDay": [
+    {
+      "Name": "Future",
+      "AreaName": "Ангар"
+    },
+    {
+      "Name": "Products",
+      "AreaName": "Зал №2"
+    },
+    {
+      "Name": "Projects",
+      "AreaName": "Зал №3"
+    },
+    {
+      "Name": "Backend",
+      "AreaName": "Зал №1"
+    },
+    {
+      "Name": "Backend",
+      "AreaName": "Зал №4"
+    },
+    {
+      "Name": "Frontend",
+      "AreaName": "Зал №5"
+    },
+    {
+      "Name": "QA",
+      "AreaName": "Зал №6"
+    },
+    {
+      "Name": "Mobile",
+      "AreaName": "Зал №7"
+    },
+    {
+      "Name": "Квартирники",
+      "AreaName": "Путинка"
+    }
+  ]
+}
