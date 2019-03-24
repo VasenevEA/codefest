@@ -69,7 +69,7 @@ List<SpeachTimeItem> stringeToConference(String s) {
 
 
 
-double itemHeight = 150;
+double itemHeight = 160;
 
 
 int firstVisibleVerticalItem = 0;
@@ -116,8 +116,9 @@ void Test()
 {
   
 }
-
-void verticalScrollListener() {
+var lastDate = 0;
+var count = 0;
+void verticalScrollListener() { 
   for (var i = 0; i < _scrollController.positions.length; i++) {
     try {
       if (lastPixels != _scrollController.positions.elementAt(i).pixels) {
@@ -138,6 +139,8 @@ void verticalScrollListener() {
     listSections = conf.sectionsSecondDay;
     } 
 
+if(lastDate != items[firstVisibleVerticalItem].startTime.day)
+{
     for (var i = 0; i < headerSections.length; i++) {
       headerSections[i].name = listSections[i].name;
       headerSections[i].areaName = listSections[i].areaName;
@@ -145,7 +148,8 @@ void verticalScrollListener() {
   setState(() {
     
   });
-
+  lastDate = items[firstVisibleVerticalItem].startTime.day;
+}
   }
 
   MyAppState(this.items);
@@ -155,6 +159,7 @@ void verticalScrollListener() {
 
   _verticalScrollController.addListener(verticalScrollListener);
  lv= ListView.builder(
+                physics: const AlwaysScrollableScrollPhysics (),
                 scrollDirection: Axis.horizontal,
                 itemCount: headerSections.length,
                 controller: _scrollController,
@@ -176,54 +181,68 @@ void verticalScrollListener() {
                     ));
                 },
               );
+
+              
     return MaterialApp(
       title: widget.title,
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-          backgroundColor: Colors.white,
-          leading:  new Container(
-        width: 40.0,
-        height: 40.0,
-        decoration: new BoxDecoration(
-            shape: BoxShape.circle,
-            image: new DecorationImage(
-                fit: BoxFit.fill,
-                image:
-                    new NetworkImage("https://pbs.twimg.com/profile_images/1069836563964678145/SflnPD2C_400x400.jpg")))),
-        ),
-        body: new Column(
-          children: <Widget>[
-             new Container (
-                height: 40,
-                child:
-              lv),
-            new Expanded(
-              child: ListView.builder(
-          controller: _verticalScrollController,
-          physics: ClampingScrollPhysics(),
-          // Let the ListView know how many items it needs to build
-          itemCount: items.length,
-          // Provide a builder function. This is where the magic happens! We'll
-          // convert each item into a Widget based on the type of item it is.
-          itemBuilder: (context, index) {
-            return _buildHorizontalList(items[index],index);
-          },
-        ),
-            )
-          ],
-        ),
+       theme: ThemeData(
+   primaryColor: Colors.red,
+     ),
+      home: new Scaffold(
+        backgroundColor: Colors.white,
+      body: new CustomScrollView(
+        physics: const AlwaysScrollableScrollPhysics (),
+        controller: _verticalScrollController,
+        slivers: <Widget>[
+          new SliverAppBar(
+            expandedHeight: 100.0,
+            floating: true,
+            pinned: true,
+            backgroundColor: Colors.white,
+            leading: new FlexibleSpaceBar(
+              title: getIconWidget(),
+            ),
+            flexibleSpace:  Padding(padding: EdgeInsets.fromLTRB(0, 0, 0, 40), child: FlexibleSpaceBar(
+                  centerTitle: true,
+                  title:Text("Collapsing Toolbar",
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16.0,
+                      )),
+                  background: Image.network(
+                    "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&h=350",
+                    fit: BoxFit.cover,
+                  ))),
+            bottom: PreferredSize(
+            preferredSize: const Size.fromHeight(40.0),
+            child: Theme(
+              data: Theme.of(context).copyWith(accentColor: Colors.white),
+              child: Container(
+                height: 40.0,
+                alignment: Alignment.center,
+                child: lv
+              ),
+            ),
+          ),
+          ),
+          new SliverFixedExtentList(
+            
+            itemExtent: itemHeight+30,
+            delegate:
+                new SliverChildBuilderDelegate((context, index) 
+                { 
+                  if(index < items.length)
+                  return _buildHorizontalList(items[index],index);
+                }),
+          )
+        ],
       ),
+    ),
     );
   }
-}
 
 
-
-
-ScrollController _scrollController = new ScrollController();
-ScrollController _verticalScrollController = new ScrollController();
- 
+   
 Widget _buildItem(List<SpeachItem> speach, int index) {
 
   
@@ -234,21 +253,79 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
     text = new Text("");
   }
   var card = new Card(
-      child: Column(
-        mainAxisAlignment:  MainAxisAlignment.spaceEvenly,
-    children: <Widget>[
-    text,
-      createSpeakers(speach[index].speakers),
-      new Padding(padding: EdgeInsets.fromLTRB(5, 0, 0, 0), child: 
-      new SizedBox(
-        width: 200.0,
-        child: new Text(speach[index].tesis),
-      ))
-
-    ],
-  ));
-  return card;
+      color: Color(0xFFf2f2f2),
+      child: 
+      
+      Padding(
+    padding: EdgeInsets.fromLTRB(5, 0, 0, 0),
+    child:Column(
+        mainAxisAlignment:  MainAxisAlignment.start,
+         children: <Widget>[ 
+      Stack( children: 
+        <Widget>[
+      Align(alignment: Alignment.topLeft ,child:  
+      createSpeakers(speach[index].speakers)),
+      Align(alignment: Alignment.topRight ,child:
+       new Container(
+        width: 50,
+      child:  new IconButton( 
+        icon: speach[index].isBookMarked? 
+        Image.asset('resources/fav_on.png')
+       :Image.asset('resources/fav_off.png'),
+       onPressed: (){
+         setState(() {
+           for (var i = 0; i < speach.length; i++) {
+             if (index == i)
+             speach[index].isBookMarked = !speach[index].isBookMarked;
+             else
+               speach[i].isBookMarked = false;
+           }
+         });
+       },
+      )) )]),
+      Padding(padding: EdgeInsets.fromLTRB(0, 10, 0, 0),child: Align(alignment: Alignment.topLeft , 
+      child:Text(speach[index].tesis))),
+      ]))
+      );
+  return new SizedBox( 
+    width: 260,
+    height: itemHeight,
+    child: card);
 }
+
+
+Widget _buildHorizontalList(SpeachTimeItem speach, int index) {
+  
+  debugPrint(index.toString());
+ var formatter = new DateFormat('HH:mm');
+ var time = formatter.format(speach.startTime);
+ 
+  return Column(
+    children: <Widget>[
+      new Text(time, textScaleFactor: 1.3),
+      new Container(
+          height: itemHeight,
+          child: ListView.builder(
+              physics: ClampingScrollPhysics(),
+              controller: _scrollController,
+              scrollDirection: Axis.horizontal,
+              itemCount: speach.speaches.length,
+              itemBuilder: (BuildContext content, int index) {
+                return _buildItem(speach.speaches, index);
+              }))
+    ],
+  );
+}
+}
+
+
+Widget getIconWidget()
+{
+  return new Image.network("https://pbs.twimg.com/profile_images/1069836563964678145/SflnPD2C_400x400.jpg");
+}
+
+ScrollController _scrollController = new ScrollController();
+ScrollController _verticalScrollController = new ScrollController();
 
 Widget createSpeakers(List<Speakers> speakers) {
   if (speakers == null) {
@@ -297,36 +374,17 @@ Widget createSpeakers(List<Speakers> speakers) {
       ],
     );
 
-    list.add(speaker);
+    list.add(new Padding(
+            padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
+        child: speaker));
   }
   return new Column(
-    children: list,
+    children: list
   );
+
+  
 }
 
-Widget _buildHorizontalList(SpeachTimeItem speach, int index) {
-  
-  debugPrint(index.toString());
-  double height = itemHeight;
- var formatter = new DateFormat('HH:mm');
- var time = formatter.format(speach.startTime);
- 
-  return Column(
-    children: <Widget>[
-      new Text(time, textScaleFactor: 1.3),
-      new Container(
-          height: height,
-          child: ListView.builder(
-              physics: ClampingScrollPhysics(),
-              controller: _scrollController,
-              scrollDirection: Axis.horizontal,
-              itemCount: speach.speaches.length,
-              itemBuilder: (BuildContext content, int index) {
-                return _buildItem(speach.speaches, index);
-              }))
-    ],
-  );
-}
 
 // The base class for the different types of items the List can contain
 abstract class ListItem {}
@@ -348,6 +406,7 @@ class MessageItem implements ListItem {
 
 class SpeachItem {
   final String tesis;
+  bool isBookMarked = false;
   bool isEnableShowHeader = false;
   final DateTime startTime;
   final List<Speakers> speakers;
