@@ -1,7 +1,7 @@
 class Conference {
   List<Speaches> speaches;
-  List<SectionsFirstDay> sectionsFirstDay;
-  List<SectionsSecondDay> sectionsSecondDay;
+  List<Section> sectionsFirstDay;
+  List<Section> sectionsSecondDay;
 
   Conference({this.speaches, this.sectionsFirstDay, this.sectionsSecondDay});
 
@@ -13,15 +13,15 @@ class Conference {
       });
     }
     if (json['SectionsFirstDay'] != null) {
-      sectionsFirstDay = new List<SectionsFirstDay>();
+      sectionsFirstDay = new List<Section>();
       json['SectionsFirstDay'].forEach((v) {
-        sectionsFirstDay.add(new SectionsFirstDay.fromJson(v));
+        sectionsFirstDay.add(new Section.fromJson(v));
       });
     }
     if (json['SectionsSecondDay'] != null) {
-      sectionsSecondDay = new List<SectionsSecondDay>();
+      sectionsSecondDay = new List<Section>();
       json['SectionsSecondDay'].forEach((v) {
-        sectionsSecondDay.add(new SectionsSecondDay.fromJson(v));
+        sectionsSecondDay.add(new Section.fromJson(v));
       });
     }
   }
@@ -128,32 +128,13 @@ class Speakers {
   }
 }
 
-class SectionsFirstDay {
+class Section {
   String name;
   String areaName;
 
-  SectionsFirstDay({this.name, this.areaName});
+  Section(this.name, this.areaName);
 
-  SectionsFirstDay.fromJson(Map<String, dynamic> json) {
-    name = json['Name'];
-    areaName = json['AreaName'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['Name'] = this.name;
-    data['AreaName'] = this.areaName;
-    return data;
-  }
-}
-
-class SectionsSecondDay {
-  String name;
-  String areaName;
-
-  SectionsSecondDay({this.name, this.areaName});
-
-  SectionsSecondDay.fromJson(Map<String, dynamic> json) {
+  Section.fromJson(Map<String, dynamic> json) {
     name = json['Name'];
     areaName = json['AreaName'];
   }
