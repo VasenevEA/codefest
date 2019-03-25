@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:codefest/FavPage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -63,7 +64,10 @@ List<SpeachTimeItem> stringeToConference(String s) {
 
   
   items = allSpeaches;
-  runApp(MyApp(allSpeaches));
+  runApp(MaterialApp(
+   title: 'Navigation Basics',
+   home: MyApp(allSpeaches),
+ ));
   return allSpeaches;
 }
 
@@ -112,10 +116,6 @@ class MyAppState extends   State<MyApp>
 {
 List<SpeachTimeItem> items;
 
-void Test()
-{
-  
-}
 var lastDate = 0;
 var count = 0;
 void verticalScrollListener() { 
@@ -189,7 +189,7 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
    primaryColor: Colors.red,
      ),
       home: new Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.white, 
       body: new CustomScrollView(
         physics: const AlwaysScrollableScrollPhysics (),
         controller: _verticalScrollController,
@@ -220,7 +220,20 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
               child: Container(
                 height: 40.0,
                 alignment: Alignment.center,
-                child: lv
+                child: Stack(children: <Widget>[
+                  lv ,
+                  Align(alignment: Alignment.centerRight , child:Container(
+                alignment: Alignment.bottomRight,
+                width: 40,
+                height: 40,
+                child: IconButton(
+                  onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => FavPage(items)));
+                  },
+                  tooltip: "Избранное",
+                  icon:Image.asset('resources/fav_on.png'))))
+                  
+                ]),
               ),
             ),
           ),
@@ -273,13 +286,8 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
         Image.asset('resources/fav_on.png')
        :Image.asset('resources/fav_off.png'),
        onPressed: (){
-         setState(() {
-           for (var i = 0; i < speach.length; i++) {
-             if (index == i)
-             speach[index].isBookMarked = !speach[index].isBookMarked;
-             else
-               speach[i].isBookMarked = false;
-           }
+         setState(() { 
+             speach[index].isBookMarked = !speach[index].isBookMarked;  
          });
        },
       )) )]),
@@ -316,6 +324,7 @@ Widget _buildHorizontalList(SpeachTimeItem speach, int index) {
     ],
   );
 }
+
 }
 
 
