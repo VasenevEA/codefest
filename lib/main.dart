@@ -337,6 +337,27 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
   {
     text = new Text("");
   }
+  
+  var favImage = Align(alignment: Alignment.topRight ,child:
+       new Container(
+        width: 50,
+      child:  new IconButton( 
+        icon: speach[index].isBookMarked? 
+        Image.asset('resources/fav_on.png')
+       :Image.asset('resources/fav_off.png'),
+       onPressed: (){
+         setState(() { 
+             speach[index].isBookMarked = !speach[index].isBookMarked;  
+             SaveFavs();
+         });
+       },
+      )));
+
+  if(speach[index].speakers == null)
+  {
+    if(index != 0)
+    favImage = new Align(alignment: Alignment.topRight);
+  }
   var card = new Card(
       color: Color(0xFFf2f2f2),
       child: 
@@ -350,20 +371,8 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
         <Widget>[
       Align(alignment: Alignment.topLeft ,child:  
       createSpeakers(speach[index].speakers)),
-      Align(alignment: Alignment.topRight ,child:
-       new Container(
-        width: 50,
-      child:  new IconButton( 
-        icon: speach[index].isBookMarked? 
-        Image.asset('resources/fav_on.png')
-       :Image.asset('resources/fav_off.png'),
-       onPressed: (){
-         setState(() { 
-             speach[index].isBookMarked = !speach[index].isBookMarked;  
-             SaveFavs();
-         });
-       },
-      )) )]),
+      favImage
+      ]),
       Padding(padding: EdgeInsets.fromLTRB(0, 10, 0, 0),child: Align(alignment: Alignment.topLeft , 
       child:Text(speach[index].tesis))),
       ]))
