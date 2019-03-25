@@ -1,5 +1,5 @@
 import 'dart:convert';
-
+import 'models/favs.dart';
 import 'package:codefest/FavPage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +8,7 @@ import 'models/Conference.dart';
 import 'package:intl/intl.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
+import 'files.dart';
 
 Future<String> loadSpeakers() async {
   try {
@@ -24,11 +25,87 @@ List<Section> headerSections = new List<Section>();
 _onTimeout() => print("Time Out occurs");
 
 void main() {
-  debugPrint("Started");
+  debugPrint("Started"); 
+   
   var str = loadSpeakers();
-  str.then((s) => stringeToConference(s));
+  str.then((s)  async{
+  
+  var allSpeaches = stringeToConference(s);
+  
+    //Load favs. Set to Items
+      try { 
+      var favs = await LoadFavs();
+       
+        for (var i = 0; i < items.length; i++) {
+          for (var j = 0; j < items[i].speaches.length; j++) {
+            var speach = items[i].speaches[j];
+            try {
+              
+            var favExist = favs.favs.firstWhere((x){
+              return DateTime.parse(x.startTime) == speach.startTime
+              && x.areaName == speach.section.areaName 
+              && x.areaType == speach.section.areaType;
+            });
+            if(favExist != null)
+            {
+              speach.isBookMarked = true;
+            }
+            } catch (e) {
+              debugPrint(e.toString());
+            }
+          }
+        }
+         
+      } catch (e) {
+              debugPrint(e.toString());
+      }
+  
+    runApp(MaterialApp(
+    title: 'Navigation Basics',
+    home: MyApp(allSpeaches),
+    )); 
+   });
   str.catchError((err) => debugPrint("fail"));
   str.timeout(const Duration(seconds: 5), onTimeout: () => _onTimeout());
+
+  
+}
+
+Future<Favs> LoadFavs() async
+{ 
+  var file = await getFile("favs.json");
+  var favsText = await file.readAsString();
+  try {
+    
+  var decode = jsonDecode(favsText);
+  return Favs.fromJson(decode);
+  } catch (e) {
+    return null;
+  }
+}
+
+Future<void> SaveFavs() async
+{
+  var favs = SpeachesToFavs(items);
+  var str = jsonEncode(favs.toJson());
+  await writeFile("favs.json", str);
+}
+
+Favs SpeachesToFavs(List<SpeachTimeItem> items)
+{
+  var favs = new List<Fav>();
+  for (var i = 0; i < items.length; i++) {
+      for (var j = 0; j < items[i].speaches.length; j++) {
+        var speach = items[i].speaches[j];
+         if(speach.isBookMarked)
+         {
+           favs.add(new Fav(areaName: speach.section.areaName,
+           areaType: speach.section.areaType,
+           startTime: speach.startTime.toString()));
+         }
+      }
+    }
+    return new Favs(favs: favs);
 }
 
 Conference conf;
@@ -64,10 +141,6 @@ List<SpeachTimeItem> stringeToConference(String s) {
 
   
   items = allSpeaches;
-  runApp(MaterialApp(
-   title: 'Navigation Basics',
-   home: MyApp(allSpeaches),
- ));
   return allSpeaches;
 }
 
@@ -146,7 +219,6 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
       headerSections[i].areaName = listSections[i].areaName;
     }
   setState(() {
-    
   });
   lastDate = items[firstVisibleVerticalItem].startTime.day;
 }
@@ -288,6 +360,7 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
        onPressed: (){
          setState(() { 
              speach[index].isBookMarked = !speach[index].isBookMarked;  
+             SaveFavs();
          });
        },
       )) )]),
