@@ -14,7 +14,8 @@
 *.ipr
 *.iws
 .idea/
-
+ 
+key.properties
 # Visual Studio Code related
 .vscode/
 
