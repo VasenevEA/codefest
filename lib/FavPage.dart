@@ -8,6 +8,7 @@ import 'models/Conference.dart';
 import 'package:intl/intl.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
+import 'widgetBuilders.dart';
 
 class FavPage extends StatefulWidget {
   
@@ -32,7 +33,7 @@ class FavState extends State<FavPage> {
         physics: const AlwaysScrollableScrollPhysics (), 
         slivers: <Widget>[
           new SliverAppBar(
-            expandedHeight: 100.0,
+            expandedHeight: 0.0,
             floating: true,
             pinned: true,
             backgroundColor: Colors.white,
@@ -93,8 +94,7 @@ class FavState extends State<FavPage> {
    
   Widget _buildItem(List<SpeachItem> speach, int index) {
 
-  
-  var text = new Text(speach[index].section.areaName);
+  var text = buildSection(speach[index].section.areaType, speach[index].section.areaName);
   debugPrint(speach[index].isEnableShowHeader.toString());
    
   if(!speach[index].isBookMarked)

@@ -9,6 +9,7 @@ import 'package:intl/intl.dart';
 import 'package:sticky_headers/sticky_headers.dart';
 
 import 'files.dart';
+import 'widgetBuilders.dart';
 
 Future<String> loadSpeakers() async {
   try {
@@ -61,7 +62,7 @@ void main() {
       }
   
     runApp(MaterialApp(
-    title: 'Navigation Basics',
+    title: 'CodeFest',
     home: MyApp(allSpeaches),
     )); 
    });
@@ -146,7 +147,7 @@ List<SpeachTimeItem> stringeToConference(String s) {
 
 
 
-double itemHeight = 160;
+double itemHeight = 180;
 
 
 int firstVisibleVerticalItem = 0;
@@ -177,7 +178,7 @@ class MyApp extends StatefulWidget {
   
  List<SpeachTimeItem> items; 
   MyApp(this.items);
-   final title = 'Mixed List';
+   final title = 'CodeFest';
 
   @override
   MyAppState createState() => new MyAppState(items);
@@ -200,7 +201,7 @@ void verticalScrollListener() {
     } catch (e) {}
   }
   
-  firstVisibleVerticalItem = (_verticalScrollController.position.pixels/ itemHeight).round();
+  firstVisibleVerticalItem = (_verticalScrollController.position.pixels/ (itemHeight+30)).round();
 
  var listSections = new List<Section>();
     if (items[firstVisibleVerticalItem].startTime.day == 30) {
@@ -212,18 +213,43 @@ void verticalScrollListener() {
     listSections = conf.sectionsSecondDay;
     } 
 
+  //Show title in secod day section
+     
+      debugPrint("$firstVisibleVerticalItem");
+      bool finded = false;
+      int firstIndex = 0;
+      for (var i = 0; i < items.length; i++) {
+         items[i].isEnableHeader = false;
+         if (items[i].startTime.day == 31 && !finded ) {
+          firstIndex = i;
+          finded = true;
+         }
+       }  
+       if(finded && lastDate != items[firstIndex].startTime.day)
+       {
+         items[firstIndex].isEnableHeader = true;
+        setState(() {
+          });
+       }
+       //items[firstVisibleVerticalItem].isEnableHeader =  lastDate != 31; 
+        
+     
 if(lastDate != items[firstVisibleVerticalItem].startTime.day)
 {
     for (var i = 0; i < headerSections.length; i++) {
       headerSections[i].name = listSections[i].name;
       headerSections[i].areaName = listSections[i].areaName;
     }
-  setState(() {
-  });
   lastDate = items[firstVisibleVerticalItem].startTime.day;
-}
+  HeaderDay = lastDate;
+  setState(() {
+    });
   }
 
+    
+  }
+ 
+  int HeaderDay = 30;
   MyAppState(this.items);
 
   @override
@@ -237,20 +263,7 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
                 controller: _scrollController,
                 itemBuilder: (context, index) {
 
-                  return new Container(
-                    width: 215,
-                    child: new Column(children: <Widget>[
-                      
-                      Text(headerSections[index].name, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)), 
-                      new Container( 
-        decoration: new BoxDecoration(
-          borderRadius: BorderRadius.circular(10),
-          color: Color(0xFFEAC2C9),
-        shape: BoxShape.rectangle),
-        child: new Padding(child: Text(headerSections[index].areaName), padding: EdgeInsetsDirectional.fromSTEB(5,0,5,0)),
-        )
-        ]
-                    ));
+                  return buildSection(headerSections[index].name, headerSections[index].areaName);
                 },
               );
 
@@ -267,14 +280,14 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
         controller: _verticalScrollController,
         slivers: <Widget>[
           new SliverAppBar(
-            expandedHeight: 100.0,
+            expandedHeight: 150.0,
             floating: true,
             pinned: true,
             backgroundColor: Colors.white,
             leading: new FlexibleSpaceBar(
               title: getIconWidget(),
             ),
-            flexibleSpace:  Padding(padding: EdgeInsets.fromLTRB(0, 0, 0, 40), child: FlexibleSpaceBar(
+            flexibleSpace:  Padding(padding: EdgeInsets.fromLTRB(0, 0, 0, 60), child: FlexibleSpaceBar(
                   centerTitle: true,
                   title:Text("Collapsing Toolbar",
                       style: TextStyle(
@@ -282,17 +295,21 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
                         fontSize: 16.0,
                       )),
                   background: Image.network(
-                    "https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&h=350",
+                    "https://tacera1.com/resources/Pictures/conferencestock.jpeg",
                     fit: BoxFit.cover,
                   ))),
             bottom: PreferredSize(
-            preferredSize: const Size.fromHeight(40.0),
+            preferredSize: const Size.fromHeight(60.0),
             child: Theme(
               data: Theme.of(context).copyWith(accentColor: Colors.white),
-              child: Container(
+              child: Column(children: <Widget>[
+                
+                Text(HeaderDay.toString() + " марта", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                Container(
                 height: 40.0,
                 alignment: Alignment.center,
-                child: Stack(children: <Widget>[
+                child:  
+                 Stack(children: <Widget>[
                   lv ,
                   Align(alignment: Alignment.centerRight , child:Container(
                 alignment: Alignment.bottomRight,
@@ -306,7 +323,7 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
                   icon:Image.asset('resources/fav_on.png'))))
                   
                 ]),
-              ),
+              )]),
             ),
           ),
           ),
@@ -328,14 +345,14 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
 
 
    
-Widget _buildItem(List<SpeachItem> speach, int index) {
+Widget _buildItem(List<SpeachItem> speach, int index, bool isEnableHeader) {
 
   
-  var text = new Text(speach[index].section.areaName);
-  debugPrint(speach[index].isEnableShowHeader.toString());
-  if(speach[index].isEnableShowHeader)
+  var text = buildSection(speach[index].section.areaType, speach[index].section.areaName);
+  //debugPrint(speach[index].isEnableShowHeader.toString());
+  if(!isEnableHeader)
   {
-    text = new Text("");
+    text = new Container();
   }
   
   var favImage = Align(alignment: Alignment.topRight ,child:
@@ -367,6 +384,7 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
     child:Column(
         mainAxisAlignment:  MainAxisAlignment.start,
          children: <Widget>[ 
+           text,
       Stack( children: 
         <Widget>[
       Align(alignment: Alignment.topLeft ,child:  
@@ -385,12 +403,11 @@ Widget _buildItem(List<SpeachItem> speach, int index) {
 
 
 Widget _buildHorizontalList(SpeachTimeItem speach, int index) {
-  
-  debugPrint(index.toString());
+   
  var formatter = new DateFormat('HH:mm');
  var time = formatter.format(speach.startTime);
  
-  return Column(
+  var column = Column(
     children: <Widget>[
       new Text(time, textScaleFactor: 1.3),
       new Container(
@@ -401,12 +418,24 @@ Widget _buildHorizontalList(SpeachTimeItem speach, int index) {
               scrollDirection: Axis.horizontal,
               itemCount: speach.speaches.length,
               itemBuilder: (BuildContext content, int index) {
-                return _buildItem(speach.speaches, index);
+                return _buildItem(speach.speaches, index, speach.isEnableHeader);
               }))
     ],
   );
-}
+  if(!speach.isEnableHeader)
+  {
+    return column;
+  }
+  else
+  {
+    return Column(children: <Widget>[
+      new Text(speach.startTime.day.toString() + " марта", style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+      column
+    ]);
+  }   
+  
 
+} 
 }
 
 
@@ -507,6 +536,7 @@ class SpeachItem {
 
 class SpeachTimeItem
 {
+  bool isEnableHeader = false;
   DateTime startTime;
   List<SpeachItem> speaches;
 
