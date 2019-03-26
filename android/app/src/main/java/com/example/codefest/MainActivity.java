@@ -1,4 +1,4 @@
-package com.example.codefest;
+package mrv.codefest;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
