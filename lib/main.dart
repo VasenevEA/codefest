@@ -280,7 +280,7 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
         controller: _verticalScrollController,
         slivers: <Widget>[
           new SliverAppBar(
-            expandedHeight: 150.0,
+            expandedHeight: 0.0,
             floating: true,
             pinned: true,
             backgroundColor: Colors.white,
@@ -289,10 +289,10 @@ if(lastDate != items[firstVisibleVerticalItem].startTime.day)
             ),
             flexibleSpace:  Padding(padding: EdgeInsets.fromLTRB(0, 0, 0, 60), child: FlexibleSpaceBar(
                   centerTitle: true,
-                  title:Text("Collapsing Toolbar",
+                  title:Text("30-31 марта 2019, Новосибирск, Экспоцентр",
                       style: TextStyle(
                         color: Colors.white,
-                        fontSize: 16.0,
+                        fontSize: 10.0,
                       )),
                   background: Image.network(
                     "https://tacera1.com/resources/Pictures/conferencestock.jpeg",
